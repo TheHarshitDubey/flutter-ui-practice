@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widget/allUIList.dart';
 import 'package:flutter_widget/instagramProfileUI.dart';
+import 'package:flutter_widget/productListingUI.dart';
 
-// import 'package:flutter_widget/MyHomePage.dart';
-// import 'package:flutter_widget/product_card_ui.dart';
-// import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-// import 'package:flutter_widget/settings_screen.dart';
+import 'package:flutter_widget/MyHomePage.dart';
+import 'package:flutter_widget/product_card_ui.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:flutter_widget/settings_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,8 +24,9 @@ class MyApp extends StatelessWidget {
       // home: const MyHomePage(),
       // home: const MyWidget(),
       // home: const SettingsScreen(),
-         home:   profileUI(),
-
+        //  home:   profileUI(),
+      // home: productListing(),
+      home: Alluilist(),
     );
   }
 }
